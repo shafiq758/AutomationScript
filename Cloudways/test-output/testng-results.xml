@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26423" started-at="2017-09-12T06:00:43Z" finished-at="2017-09-12T06:01:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26423" started-at="2017-09-12T06:00:43Z" finished-at="2017-09-12T06:01:10Z">
+      <class name="cloudautomation.Login">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:cloudautomation.Login@6cc4c815]" name="beforeTest" is-config="true" duration-ms="16506" started-at="2017-09-12T11:00:43Z" finished-at="2017-09-12T11:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:cloudautomation.Login@6cc4c815]" name="LoginUser" duration-ms="6317" started-at="2017-09-12T11:01:00Z" finished-at="2017-09-12T11:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="step2()[pri:0, instance:cloudautomation.Login@6cc4c815]" name="step2" duration-ms="3569" started-at="2017-09-12T11:01:06Z" finished-at="2017-09-12T11:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2 -->
+      </class> <!-- cloudautomation.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
