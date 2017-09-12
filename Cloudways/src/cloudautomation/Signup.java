@@ -9,18 +9,19 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 
-public class Signup extends ServerLoader {
+public class Signup  {
 	HSSFWorkbook workbook;
     HSSFSheet sheet;
     HSSFCell cell;
   @Test
   public void signup() throws InterruptedException, IOException {
-	  
+	  WebDriver driver=ServerLoader.driver;
 	   
-		  File src=new File("C:\\Users\\Shafiq ur Rehman\\Desktop\\Data.xls");
+		  File src=new File("src/Data.xls");
 	  
 	  FileInputStream finput = new FileInputStream(src);
 	  
