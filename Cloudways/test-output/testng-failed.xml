@@ -6,6 +6,7 @@
       <class name="cloudautomation.Login">
         <methods>
           <include name="beforeTest"/>
+          <include name="LoginUser"/>
           <include name="step2"/>
         </methods>
       </class> <!-- cloudautomation.Login -->
