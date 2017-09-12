@@ -15,7 +15,7 @@ public class AddedServer extends Login{
 	 
 	 // sheet= workbook.getSheetAt(2);
 		// Thread.sleep(5000);
-	  driver.findElement(By.id("select_option_25")).click();
+	
 	     
   }
 }

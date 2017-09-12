@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CloudWaysWebsite">
+
+  <test name="ServerLoader">
+    <classes>
+       <class name="cloudautomation.ServerLoader" />
+    </classes>
+  </test>
+  
+  <test name="SignUP">
+    <classes>
+       <class name="cloudautomation.Signup" />
+    </classes>
+  </test>
+  
+</suite>  	
