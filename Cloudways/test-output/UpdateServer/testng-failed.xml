@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UpdateServer]">
+  <test name="UpdateServer(failed)">
+    <classes>
+      <class name="cloudautomation.ServerLoader">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cloudautomation.ServerLoader -->
+      <class name="cloudautomation.ServerFunction">
+        <methods>
+          <include name="restart"/>
+        </methods>
+      </class> <!-- cloudautomation.ServerFunction -->
+    </classes>
+  </test> <!-- UpdateServer(failed) -->
+</suite> <!-- Failed suite [UpdateServer] -->

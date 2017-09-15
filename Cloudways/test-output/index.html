@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-SimpleLogin">
-                    <span>C:\Java-WebDriver\Workspace\Cloudways\src\cloudautomation\LoginandAdd.xml</span>
+                    <span>C:\Java-WebDriver\Workspace\Cloudways\src\cloudautomation\Login.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SimpleLogin" title="cloudautomation.Login" hash-for-method="LoginUser">LoginUser</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SimpleLogin" title="cloudautomation.Login" hash-for-method="step2">step2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SimpleLogin -->
@@ -135,19 +130,12 @@
                   <span class="method-name">LoginUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step2">
-                  </a> <!-- step2 -->
-                  <span class="method-name">step2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-SimpleLogin-class-passed -->
         </div> <!-- panel SimpleLogin -->
         <div panel-name="test-xml-SimpleLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Java-WebDriver\Workspace\Cloudways\src\cloudautomation\LoginandAdd.xml</span>
+            <span class="header-content">C:\Java-WebDriver\Workspace\Cloudways\src\cloudautomation\Login.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -164,7 +152,6 @@
       &lt;class name=&quot;cloudautomation.Login&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;LoginUser&quot;/&gt;
-          &lt;include name=&quot;step2&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- cloudautomation.Login --&gt;
     &lt;/classes&gt;
@@ -209,20 +196,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'step2')
+data.setCell(0, 1, 'LoginUser')
 data.setCell(0, 2, 'cloudautomation.Login')
-data.setCell(0, 3, 8802);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginUser')
-data.setCell(1, 2, 'cloudautomation.Login')
-data.setCell(1, 3, 1865);
+data.setCell(0, 3, 6102);
 window.suiteTableData['SimpleLogin']= { tableData: data, tableDiv: 'times-div-SimpleLogin'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-SimpleLogin">
               </div> <!-- times-div-SimpleLogin -->
             </div> <!-- times-div -->
@@ -237,9 +220,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SimpleLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">cloudautomation.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">step2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-SimpleLogin" class="panel">
@@ -258,11 +248,7 @@ return data;
               <div class="chronological-class-name">cloudautomation.Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">LoginUser</span>
-                <span class="method-start">16805 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">step2</span>
-                <span class="method-start">18671 ms</span>
+                <span class="method-start">19722 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

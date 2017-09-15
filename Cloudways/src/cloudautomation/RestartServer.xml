@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ServerFunctions">
+
+
+<test name="ServerLoader">
+    <classes>
+       <class name="cloudautomation.ServerLoader" />
+    </classes>
+  </test>
+  
+  <test name="Login">
+    <classes>
+       <class name="cloudautomation.Login">
+       <methods>
+          <include name="LoginUser"/>
+          
+          </methods>
+          </class>
+        
+    </classes>
+  </test>
+  
+  
+ <test name="UpdateServer">
+    <classes>
+       <class name="cloudautomation.ServerFunction">
+      
+          </class>
+        
+    </classes>
+  </test>
+  
+ 
+  
+</suite>  	
