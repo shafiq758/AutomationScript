@@ -30,7 +30,7 @@ public class ServerLoader {
 
 		
 			
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\Shafiq ur Rehman\\Downloads\\Complete Data\\Gecko\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","src\\Gecko\\geckodriver.exe");
 //			FirefoxOptions options = new FirefoxOptions();
 		//	options.setBinary("C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"); //This is the location where you have installed Firefox on your machine
 
@@ -50,7 +50,7 @@ public class ServerLoader {
 
 	//	@BeforeTest
 	  // public void beforeWebdriver(){
-	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shafiq ur Rehman\\Downloads\\Complete Data\\chromedriver.exe");
+	        System.setProperty("webdriver.chrome.driver", "src\\chromedriver.exe");
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.get("https://platform.cloudways.com");
